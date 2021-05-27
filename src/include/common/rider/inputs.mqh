@@ -30,12 +30,12 @@
 input static string __Strategies_Active__ = "-- Active strategies --";  // >>> ACTIVE STRATEGIES <<<
 #ifdef __MQL4__
 input ENUM_STRATEGY Strategy_M1 = (ENUM_STRATEGY)STRAT_NONE;        // Strategy on M1
-input ENUM_STRATEGY Strategy_M5 = (ENUM_STRATEGY)STRAT_BANDS;       // Strategy on M5
+input ENUM_STRATEGY Strategy_M5 = (ENUM_STRATEGY)STRAT_NONE;        // Strategy on M5
 input ENUM_STRATEGY Strategy_M15 = (ENUM_STRATEGY)STRAT_ENVELOPES;  // Strategy on M15
 input ENUM_STRATEGY Strategy_M30 = (ENUM_STRATEGY)STRAT_ENVELOPES;  // Strategy on M30
 #else
 input ENUM_STRATEGY Strategy_M1 = (ENUM_STRATEGY)STRAT_NONE;        // Strategy on M1
-input ENUM_STRATEGY Strategy_M5 = (ENUM_STRATEGY)STRAT_BANDS;       // Strategy on M5
+input ENUM_STRATEGY Strategy_M5 = (ENUM_STRATEGY)STRAT_NONE;        // Strategy on M5
 input ENUM_STRATEGY Strategy_M15 = (ENUM_STRATEGY)STRAT_ENVELOPES;  // Strategy on M15
 input ENUM_STRATEGY Strategy_M30 = (ENUM_STRATEGY)STRAT_ENVELOPES;  // Strategy on M30
 #endif
